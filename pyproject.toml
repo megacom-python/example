@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "auth-example"
+version = "0.1.0"
+description = ""
+authors = ["Dinmukhamet <igissinov_d@auca.kg>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.3"
+djangorestframework = "^3.14.0"
+psycopg2 = "^2.9.5"
+django-environ = "^0.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.991"
+isort = "^5.10.1"
+black = "^22.10.0"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
